@@ -1,15 +1,76 @@
 :root {
+  --grey-500: #3A3C45;
+  --dark-800: #28282A;
+  --grey-900: #1D1D1F;
+
+  --navy-900: #0D1E32;
+
+  --white: #FFFFFF;
 }
 
+/* CSS Reset -- https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
 }
 
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* utility classes for content for screenreaders */
+.sr-only {
+  position: absolute !important;
+}
+
+.sr-only:not(:focus) {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* for IE6 & IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Global defaults */
+
+body {
+  background-image: linear-gradient(var(--dark-800), var(--navy-900));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

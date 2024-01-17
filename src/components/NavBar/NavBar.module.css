@@ -1,0 +1,17 @@
+.nav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 1.5rem;
+  bottom: 1rem;
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.1);
+  left: 1rem;
+  position: fixed;
+  right: 1rem;
+  width: calc(100% - 2rem);
+}
+
+.navList {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}

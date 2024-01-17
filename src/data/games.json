@@ -1,0 +1,77 @@
+{
+  "type": "games",
+  "data": [
+    {
+      "title": "Out of Space",
+      "image": "games/out-of-space.png",
+      "played": true,
+      "purchased": true
+    },
+    {
+      "title": "Overcooked",
+      "image": "games/overcooked.webp",
+      "played": false,
+      "purchased": true
+    },
+    {
+      "title": "Overcooked! All You Can Eat",
+      "image": "games/overcooked-all-you-can-eat.webp",
+      "played": true,
+      "purchased": true
+    },
+    {
+      "title": "Overcooked! 2",
+      "image": "games/overcooked-2.webp",
+      "played": true,
+      "purchased": true
+    },
+    {
+      "title": "It Takes Two",
+      "image": "games/it-takes-two.webp",
+      "played": false,
+      "purchased": true
+    },
+    {
+      "title": "Fall Guys",
+      "image": "games/fall-guys.avif",
+      "played": true,
+      "purchased": true
+    },
+    {
+      "title": "The Jackbox Party Pack 6",
+      "image": "games/the-jackbox-party-pack-6.webp",
+      "played": false,
+      "purchased": true
+    },
+    {
+      "title": "Goat Simulator",
+      "image": "games/goat-simulator.webp",
+      "played": false,
+      "purchased": true
+    },
+    {
+      "title": "Rise of the Tomb Raider: 20 Year Celebration",
+      "image": "games/rise-of-the-tomb-raider-20-year-celebration.jpg",
+      "played": false,
+      "purchased": true
+    },
+    {
+      "title": "LEGO Harry Potter Collection",
+      "image": "games/lego-harry-potter-collection.webp",
+      "played": true,
+      "purchased": true
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "image": "games/hogwarts-legacy.webp",
+      "played": true,
+      "purchased": true
+    },
+    {
+      "title": "Hitman World of Assassination",
+      "image": "games/hitman-world-of-assassination.avif",
+      "played": false,
+      "purchased": true
+    }
+  ]
+}
