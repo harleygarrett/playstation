@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main>
+    <main id="main">
       <h1>Playstation</h1>
     </main>
   )
