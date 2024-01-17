@@ -10,7 +10,7 @@
     {
       "title": "Overcooked",
       "image": "games/overcooked.webp",
-      "played": true,
+      "played": false,
       "purchased": true
     },
     {
@@ -46,14 +46,14 @@
     {
       "title": "Goat Simulator",
       "image": "games/goat-simulator.webp",
-      "played": true,
+      "played": false,
       "purchased": true
     },
     {
       "title": "Rise of the Tomb Raider: 20 Year Celebration",
       "image": "games/rise-of-the-tomb-raider-20-year-celebration.jpg",
-      "played": true,
-      "purchased": false
+      "played": false,
+      "purchased": true
     },
     {
       "title": "LEGO Harry Potter Collection",
